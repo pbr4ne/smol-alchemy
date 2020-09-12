@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <vue-tabs active-tab-color="#2c3e50" active-text-color="white">
+    <vue-tabs active-tab-color="#141c2a" active-text-color="#df1233">
         <v-tab title="Cottage">
           <Cottage />
         </v-tab>
@@ -35,15 +35,18 @@ export default {
 
 <style>
 body {
-  background-color: #222831;
+  background-color: #2b292c;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: white;
+  color: #df1233;
 }
 .tab-content {
   padding: 15px;
+}
+.vue-tabs .nav-tabs li a{
+  color: #742433;
 }
 </style>
