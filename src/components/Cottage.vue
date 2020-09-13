@@ -1,6 +1,6 @@
 <template>
   <div>
-    Your grandfather's cottage.
+    Your grandfather's cottage. A small fire burns in the hearth, and the furniture looks care-worn and comfortable.
   </div>
 </template>
 
